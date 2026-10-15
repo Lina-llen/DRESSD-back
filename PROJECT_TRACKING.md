@@ -155,5 +155,6 @@ Dressd-back/
 | :--- | :--- | :--- |
 | **2026-10-15** | Agent IA | Initialisation du projet DRESSD :<br>- Création de `PROJECT_TRACKING.md`, `.gitignore`, `.env.exemple`, `.env`.<br>- Validation utilisateur pour `dotenv`, `cors`, `multer`.<br>- Installation des dépendances dans `package.json`.<br>- Mise en place du module `Config/db.js` (pool MySQL2/promise).<br>- Implémentation des Middlewares (`auth.middleware.js`, `upload.middleware.js`).<br>- Création de tous les Modèles, Contrôleurs et Routes (`auth`, `categories`, `locations`, `tags`, `clothes`, `outfits`).<br>- Configuration de `index.js` avec distribution statique `/uploads` et gestionnaire d'erreurs.<br>- Validation syntaxique de tous les modules JS. |
 | **2026-10-15** | Agent IA & Utilisateur | Remplacement de tous les alias SQL courts (`c.`, `cat.`, `loc.`, `t.`, `ct.`, `o.`, `oi.`) par les noms de tables explicites complets (`clothes.`, `categories.`, `locations.`, `tags.`, `clothing_tags.`, `outfits.`, `outfit_items.`) dans les modèles pour maximiser la lisibilité et la pédagogie lors des explications et présentations du code. |
+| **2026-10-15** | Agent IA & Utilisateur | Initialisation du dépôt Git dédié pour le backend et premier commit / push réussi sur le repo distant : `https://github.com/Lina-llen/DRESSD-back.git` (branche `main`). |
 
 ---
